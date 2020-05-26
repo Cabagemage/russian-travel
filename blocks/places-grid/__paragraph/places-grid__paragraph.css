@@ -1,0 +1,26 @@
+.places-grid__paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%;
+    max-width: 480px;
+    }
+    
+    @media screen and (max-width: 768px) {
+            .places-grid__paragraph{
+              grid-area: paragraph;
+              width: 352px;
+              max-width: 100%;
+              font-size: 16px;
+            }
+      
+        } 
+        @media screen and (max-width: 425px) {
+              .places-grid__paragraph {
+              grid-area: paragraph;
+              font-size: 18px;
+              max-width: 288px;
+              line-height: 1.5;
+              text-align: left;
+              }
+              }

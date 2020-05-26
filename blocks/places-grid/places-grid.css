@@ -1,0 +1,13 @@
+@import url(./__card/places-grid__card.css);
+@import url(./__img/places-grid__img.css);
+@import url(./__section-title/places-grid__section-title.css);
+@import url(./__link/places-grid__link.css);
+@import url(./__paragraph/places-grid__paragraph.css);
+@import url(./__textbox/places-grid__textbox.css);
+@import url(./__url-box/places-grid__url-box.css);
+.places-grid {
+    padding-top: 80px;
+    max-width: 984px;
+    margin: 0 auto;
+    
+    }

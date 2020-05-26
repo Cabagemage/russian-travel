@@ -1,0 +1,11 @@
+.places-grid__url-box{
+    grid-area: url;
+    padding-right: 30px;
+    margin-top: 30px;
+    color: white;
+    }
+    @media screen and (max-width: 425px) {
+     .places-grid__url-box {
+            display: none;
+        }
+    }

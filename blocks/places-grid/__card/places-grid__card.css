@@ -1,0 +1,29 @@
+.places-grid__card {
+    display: grid;
+    grid-template-columns: repeat(1, 460px) 1fr;
+    padding-bottom: 84px;
+    grid-column-gap: 48px;
+    grid-template-areas: "title url" "img paragraph" ;
+    
+}
+@media screen and (max-width: 768px){
+
+      .places-grid__card{
+        display: grid;
+        grid-template-columns: repeat(1, 370px) 1fr;
+        max-width: 100%;
+        grid-column-gap: 28px;
+        grid-template-areas: "title link" "img" "paragraph" ;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+          .places-grid__card {
+            display: grid;
+            grid-template-columns: repeat(1, 320px) 1fr;
+            max-width: 100%;
+            margin: 0;
+            grid-column-gap: 48px;
+            grid-template-areas: "title" "img" "paragraph" ;
+            }
+    }

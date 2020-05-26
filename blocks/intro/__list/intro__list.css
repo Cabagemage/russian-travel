@@ -1,0 +1,10 @@
+.intro__list {
+    padding-top: 30px;
+    text-align: justify;
+    }
+
+    @media screen and (max-width: 425px) {
+        .intro__list {
+          font-size: 12px;
+        }
+    }

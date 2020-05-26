@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../../vendor/fonts/Inter.ttf") format("ttf");
+}
+body{
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #2A2C2F;
+  }

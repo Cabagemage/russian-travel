@@ -1,0 +1,20 @@
+.footer__navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    }
+    @media screen and (max-width: 425px) {
+
+            .footer__navigation {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            }
+    
+            .footer__navigation-item {
+              padding-top: 32px;
+              margin: 0;
+              font-size: 24px;
+            }
+    
+        } 
