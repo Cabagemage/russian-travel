@@ -8,17 +8,15 @@
     width: 100%;
     max-width: 1136px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 
     }
         @media screen and (max-width: 325px) {
             
               .footer {
-                padding: 64px 0 24px 16px;
                 max-width: 186px;
-                margin: 0;
                 flex-direction: column;
                 }
             } 
@@ -26,7 +24,12 @@
             
                 .footer {
                   max-width: 720px;
-                  width: 100%;
+                  }
+              } 
+              @media screen and (max-width: 1024px) {
+            
+                .footer {
+                  max-width: 928px;
                   }
               } 
               

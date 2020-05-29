@@ -1,5 +1,4 @@
 .footer__navigation {
-    padding: 0;
     width: 100%;
     width: 970px;
     }
@@ -7,6 +6,7 @@
 
             .footer__navigation {
             max-width: 186px;
+            
             }
 
         } 

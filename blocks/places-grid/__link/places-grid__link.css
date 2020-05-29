@@ -3,4 +3,6 @@
     }
 .places-grid__link:hover {
       opacity: 0,8;
+      color:grey;
+      transition: 2s;
       }
