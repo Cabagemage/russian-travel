@@ -2,22 +2,21 @@
 @import url(./__list-item/intro__list-item.css);
 @import url(./__span/intro__span.css);
 @import url(./__text/intro__text.css);
-@import url(../section-title/section-title.css);
+@import url(./__title/intro__title.css);
 
 .intro {  
     max-width: 690px;
     width: 100%;
     box-sizing: border-box;
-    display: inline-block;
+    display: block;
     padding-top: 90px;
-    padding-left: 7%;
+    margin-left: 5%;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     }
     
     @media screen and (max-width: 768px){
         .intro{
           max-width: 720px;
-          padding: 88px 24px 0;
         }
     }
 
