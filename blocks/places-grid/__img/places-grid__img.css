@@ -1,6 +1,5 @@
 .places-grid__img {
     grid-area: img;
-    max-width: 460px;
     width: 100%;
     padding-top: 28px;
     }
@@ -19,7 +18,7 @@
               .places-grid__img {
               grid-area: img;
               justify-self: start;
-              max-width: 100%;
+              width: 100%;
               padding-top: 28px;
               }
         }

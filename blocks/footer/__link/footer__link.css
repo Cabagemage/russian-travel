@@ -1,9 +1,10 @@
 .footer__link {
     color: white;
-    padding-right: 18px;
     text-decoration: none;
+    font-size: 24px;
+    padding-top: 18px;
     }
     .footer__link:hover{
-      opacity: 0.6;
-      color: #ffff;
+      opacity: 0.8;
+      transition: 1s;
     }

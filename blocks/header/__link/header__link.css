@@ -1,11 +1,9 @@
 .header__link {
     color: white;
     text-decoration: none;
-    
+    text-transform: uppercase;
     }
 
 .header__link:hover{
-    opacity: 0.6;
-    color: #ffff;
-    
+    opacity: 0.8;
 }

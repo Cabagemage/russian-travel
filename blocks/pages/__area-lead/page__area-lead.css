@@ -1,0 +1,21 @@
+.page__area-lead{
+    width: 100%;
+    padding: 0px;
+    }
+    
+    @media screen and (max-width: 1280px){
+        .page__area-lead{
+        padding: 0 148px;
+        }
+        }
+        @media screen and (max-width: 1024px){
+            .page__area-lead{
+            padding: 0 48px;
+            }
+            }
+    
+    @media screen and (max-width: 768px){
+    .page__area-lead{
+    padding: 0;
+    }
+    }

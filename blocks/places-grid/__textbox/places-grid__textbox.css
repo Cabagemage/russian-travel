@@ -2,11 +2,11 @@
     grid-area: paragraph;
     max-width: 480px;
     width: 100%;
+    padding-top: 48px;
     }
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 320px) {
             .places-grid__textbox {
-            padding-left: 16px;
-            padding-right: 16px;
+                    padding-top: 32px; 
             }
     }
