@@ -1,12 +1,2 @@
-.footer__navigation {
-    width: 100%;
-    width: 970px;
-    }
-    @media screen and (max-width: 325px) {
-
-            .footer__navigation {
-            max-width: 186px;
-            
-            }
-
-        } 
+.footer__navigation{
+}

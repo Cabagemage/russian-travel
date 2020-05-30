@@ -19,7 +19,7 @@
               .places-grid__paragraph {
               grid-area: paragraph;
               max-width: 288px;
-              font-size: 16px;
-              padding: 16px;
+              line-height: 26px;
+              padding: 0 8px 0;
               }
               }

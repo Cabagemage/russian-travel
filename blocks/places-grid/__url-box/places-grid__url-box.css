@@ -4,11 +4,10 @@
     color: grey;
     
     }
-    .places-grid__url-box:hover{
-        opacity: 0,8;
-        }
-    @media screen and (max-width: 425px) {
+
+    @media screen and (max-width: 640px) {
      .places-grid__url-box {
             display: none;
         }
     }
+    

@@ -1,15 +1,12 @@
 .lead__image {
     width: 100%;
     padding-top: 64px;
-    display: block;
-    max-width: 980px;
+
+    max-width: 984px;
+    object-fit: cover;
+
     }
     
-    @media screen and (max-width: 1280px) {
-      .lead__image {
-        max-width: 984px;
-      }
-  }
 
     @media screen and (max-width: 1024px) {
         .lead__image {
@@ -19,9 +16,18 @@
     @media screen and (max-width: 768px) {
         .lead__image{
           max-width: 768px;
-          width: 100%;
         }
     }
+    @media screen and (max-width: 450px) {
+      .lead__image{
+        max-width: 450px;
+      }
+  }
+  @media screen and (max-width: 546px) {
+    .lead__image{
+      max-width: 546px;
+    }
+}
     @media screen and (max-width: 320px) {
 
         .lead__image {

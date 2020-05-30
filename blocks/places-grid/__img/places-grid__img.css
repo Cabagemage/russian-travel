@@ -9,7 +9,6 @@
               grid-area: img;
               width: 340px;
               max-width: 100%;
-              padding-top: 28px;
               }
         } 
         
@@ -19,6 +18,5 @@
               grid-area: img;
               justify-self: start;
               width: 100%;
-              padding-top: 28px;
               }
         }
