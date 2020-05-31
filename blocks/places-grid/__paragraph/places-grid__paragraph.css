@@ -15,23 +15,21 @@
             }
       
         } 
-        @media screen and (max-width: 615px) {
+        @media screen and (max-width: 640px) {
           .places-grid__paragraph {
-          max-width: 400px;
+          max-width: 500px;
           line-height: 26px;
           padding: 0 16px 0;
           }
           }
           @media screen and (max-width: 425px) {
             .places-grid__paragraph {
-            max-width: 320px;
-            line-height: 26px;
+            max-width: 350px;
             }
             }
 
         @media screen and (max-width: 320px) {
               .places-grid__paragraph {
               max-width: 288px;
-              line-height: 26px;
               }
               }

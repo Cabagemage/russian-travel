@@ -7,8 +7,8 @@
     }
     .footer__link:hover{
       opacity: 0.8;
-      transition: 1s;
     }
+    
     @media screen and (max-width: 490px) {
       .footer__link {
         font-size: 24px;

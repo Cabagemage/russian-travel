@@ -6,6 +6,7 @@ line-height: 20px;
 letter-spacing: 0.2em;
 color: #aaaaaa
 }
+
 @media screen and (max-width: 1024px){
     .places-grid__url{
     line-height: 12px;

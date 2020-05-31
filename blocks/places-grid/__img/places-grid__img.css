@@ -4,22 +4,9 @@
 
     }
     
-    @media screen and (max-width: 768px){
-            .places-grid__img{
-              }
-        } 
-        
         @media screen and (max-width: 640px) {
         
           .places-grid__img {
           justify-self: start;
-          width: 100%;
           }
     }
-    @media screen and (max-width: 425px) {
-        
-              .places-grid__img {
-              justify-self: start;
-              width: 100%;
-              }
-        }
