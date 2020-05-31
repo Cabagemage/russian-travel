@@ -1,6 +1,7 @@
 .places-grid__paragraph {
   grid-area: paragraph;
   font-size: 18px;
+  max-width: 480px;
     line-height: 30px;
     margin: 0;
     width: 100%;
@@ -18,18 +19,13 @@
         } 
         @media screen and (max-width: 640px) {
           .places-grid__paragraph {
-          max-width: 420px;
           padding: 0 8px 0;
+          max-width: 300px;
           }
           }
-          @media screen and (max-width: 425px) {
-            .places-grid__paragraph {
-            max-width: 250px;
-            }
-            }
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 420px) {
               .places-grid__paragraph {
-              max-width: 288px;
+                max-width: 288px;
               }
               }
