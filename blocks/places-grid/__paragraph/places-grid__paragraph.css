@@ -19,7 +19,7 @@
           .places-grid__paragraph {
           max-width: 500px;
           line-height: 26px;
-          padding: 0 16px 0;
+          padding: 0 8px 0;
           }
           }
           @media screen and (max-width: 425px) {
