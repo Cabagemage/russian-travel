@@ -24,14 +24,15 @@
     
   @media screen and (max-width: 600px) {
     .photo-grid {
-      max-width: 600px;
-
+      max-width: 550px;
+      padding: 64px 16px 0;
   } 
   }
+  
 
   @media screen and (max-width: 320px) {
     .photo-grid {
-      max-width: 300px;
+      max-width: 288px;
       padding: 64px 0 0;
 
   } 

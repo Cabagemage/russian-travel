@@ -2,8 +2,12 @@
 list-style-type: none;
 margin-right: 18px;
 }
+.footer__list-item:last-child(){
+    list-style-type: none;
+    margin-right: 0;
+    }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
 
     .footer__list-item {
     margin-top: 32px;

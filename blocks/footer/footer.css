@@ -1,4 +1,3 @@
-@import url(./__navigation/footer__navigation.css);
 @import url(./__link/footer__link.css);
 @import url(./__list-item/footer__list-item.css);
 @import url(./__list/footer__list.css);
@@ -11,6 +10,7 @@
     align-items: center;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     box-sizing: border-box;
+    margin: 0 auto;
   
     }
 
@@ -30,30 +30,27 @@
             padding: 0 24px 24px 24px;
             }
         } 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 640px) {
             
           .footer {
-            max-width: 580px;
-            padding: 0 12px 12px 12px;
-           
+            max-width: 640px;
+            display: block;
+            flex-direction: column;
+    
             }
         } 
 
   
-        @media screen and (max-width: 545px) {
+        @media screen and (max-width: 550px) {
             
           .footer {
-            max-width: 545px;
-            display: block;
+            max-width: 555px;
             }
         } 
-    
-              @media screen and (max-width: 425px) {
+        @media screen and (max-width: 350px) {
             
-                .footer {
-                  max-width: 400px;
-                  display: block;
-                  flex-direction: column;
-                  padding-left:16px;
-                  }
-              } 
+          .footer {
+            max-width: 350px;
+            }
+        } 
+ 

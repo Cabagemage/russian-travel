@@ -27,28 +27,27 @@
   transition: linear 3s;
   }
   
-@media screen and (max-width: 1024px){
+  @media screen and (max-width: 1024px){
 
-.cover__overlay {
-      min-height: 640px;
+    .cover__overlay {
+          min-height: 640px;
+        }
+    } 
+    
+    @media screen and (max-width: 768px){
+    .cover__overlay {
+    min-height: 480px;
     }
-} 
-
-@media screen and (max-width: 768px){
-.cover__overlay {
-min-height: 480px;
-}
-} 
-@media screen and (max-width: 600px) {
-  .cover__overlay {
-    min-height: 400px;
-} 
-}
-
-
-@media screen and (max-width: 320px) {
-  .cover__overlay {
-    min-height: 200px;
-    padding-top: 65px;
-} 
-}
+    } 
+    @media screen and (max-width: 600px) {
+      .cover__overlay {
+        min-height: 400px;
+    } 
+    }
+    
+    
+    @media screen and (max-width: 320px) {
+      .cover__overlay {
+        min-height: 200px;
+    } 
+    }

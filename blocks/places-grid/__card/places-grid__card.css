@@ -2,33 +2,35 @@
     display: grid;
     max-width: 984px;
     grid-template-columns: 460px 1fr;
-    grid-column-gap: 40px;
+    grid-gap: 40px;
     margin-bottom: 80px;
     grid-template-areas: "title url" "img paragraph" ;   
+}
+.places-grid__card:last-child {
+margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px){
 
   .places-grid__card {
     grid-template-columns: 440px 1fr;
-    grid-column-gap: 32px;
+    grid-gap: 32px;
         }
   } 
 
 @media screen and (max-width: 768px){
       .places-grid__card{
         grid-template-columns: 340px 1fr;
-        grid-column-gap: 28px;
+        grid-gap: 28px;
         grid-template-areas: "title link" "img" "paragraph" ;
         max-width: 720px;
         }
     }
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 640px) {
       .places-grid__card {
-        max-width: 620px;
-        grid-template-columns: 320px 1fr;
-        grid-column-gap: 12px;
-        padding-top: 48px;
+        max-width: 640px;
+        grid-template-columns: 1fr;
+        grid-gap: 12px;
         grid-template-areas: "title" "img" "paragraph" ;
         }
 }
@@ -37,8 +39,7 @@
           .places-grid__card {
             max-width: 320px;
             grid-template-columns: 1fr;
-            grid-column-gap: 12px;
-            padding-top: 48px;
+            grid-gap: 12px;
             grid-template-areas: "title" "img" "paragraph" ;
             }
     }

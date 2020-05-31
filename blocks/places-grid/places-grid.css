@@ -12,6 +12,7 @@
     max-width: 984px;
     margin: 0 auto;
     box-sizing: border-box;
+    margin-bottom: 92px;
     }
     
     @media screen and (max-width: 1024px) {
@@ -33,13 +34,22 @@
         max-width: 768px;
         padding-left: 24px;
         padding-right: 24px;
+        margin-bottom: 88px;
         }
   
     } 
+    @media screen and (max-width: 640px) {
+        .places-grid{
+        max-width: 640px;
+        padding: 0;
+        margin-bottom: 64px;
+        }
+  
+    } 
+
     @media screen and (max-width: 320px) {
         .places-grid{
         max-width: 320px;
-       padding: 0;
         }
   
     } 

@@ -10,14 +10,4 @@
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     margin-bottom: 90px;
   }
-  @media screen and (max-width: 1024px){
-    .cover{
-     padding-top: 20px;
-    }
-}
 
-@media screen and (max-width: 320px) {
-    .cover {
-      padding-top: 64px;
-    }
-}
