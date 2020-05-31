@@ -1,7 +1,3 @@
-@import url(./__area-lead/page__area-lead.css);
-@import url(./__area-places/page__area-places.css);
-@import url(./__area-photo-grid/page__area-photo-grid.css);
-@import url(./__area-headfoot/page__area-headfoot.css);
 .page {
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   max-width: 1184px;

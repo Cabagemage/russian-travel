@@ -1,5 +1,18 @@
 .intro__list {
-    padding-top: 30px;
-    padding: 0;
+    max-width: 690px;
     list-style-type: none;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
     }
+
+    @media screen and (max-width: 2440px) {
+        .intro__list {
+          padding-top: 32px;
+        }
+      }
+
+
+

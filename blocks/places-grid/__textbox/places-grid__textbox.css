@@ -1,6 +1,3 @@
 .places-grid__textbox{
     grid-area: paragraph;
-    max-width: 480px;
-    width: 100%;
     }
-

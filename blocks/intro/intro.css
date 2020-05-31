@@ -5,35 +5,27 @@
 @import url(./__title/intro__title.css);
 
 .intro {  
-    max-width: 720px;
+    max-width: 690px;
     width: 100%;
     padding-top: 92px;
     padding-left: 99px;
-    box-sizing: border-box;
-    display: block;
-    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
     }
 
     @media screen and (max-width: 1024px){
         .intro{
-          max-width: 690px;
           padding-top: 88px;
           padding-left: 45px;
+          box-sizing: content-box;
         }
     }
 
     @media screen and (max-width: 768px){
         .intro{
+          max-width: 720px;
           padding-left: 24px;
           padding-right: 24px;
-        }
-    }
-
-
-
-    @media screen and (max-width: 768px){
-        .intro{
-          padding: 88px 24px 0;
+          box-sizing: border-box;
         }
     }
 
@@ -41,5 +33,7 @@
         .intro {
         max-width: 288px;
         padding: 64px 16px 0;
+        box-sizing: border-box;
         }
     }
+    

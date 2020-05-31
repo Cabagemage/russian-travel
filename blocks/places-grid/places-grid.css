@@ -18,10 +18,9 @@
     @media screen and (max-width: 1024px) {
         .places-grid{
         max-width: 928px;
-
         }
-     
-        @media screen and (max-width: 610px) {
+    }
+        @media screen and (max-width: 600px) {
             .places-grid{
             max-width: 600px;
             }
@@ -38,18 +37,17 @@
         }
   
     } 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 600px) {
         .places-grid{
         max-width: 640px;
-        padding: 0;
         margin-bottom: 64px;
+        padding: 0;
         }
   
     } 
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 325px) {
         .places-grid{
-        max-width: 320px;
+        max-width: 325px;
         }
-  
     } 
