@@ -37,7 +37,6 @@ margin-bottom: 0;
 @media screen and (max-width: 460px) {
   .places-grid__card {
     max-width: 460px;
-    grid-template-areas: "title" "img" "paragraph" ;
     }
 }
 
@@ -45,6 +44,5 @@ margin-bottom: 0;
     @media screen and (max-width: 320px) {
           .places-grid__card {
             max-width: 320px;
-            grid-template-areas: "title" "img" "paragraph" ;
             }
     }
