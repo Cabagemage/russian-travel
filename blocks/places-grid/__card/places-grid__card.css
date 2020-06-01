@@ -34,11 +34,17 @@ margin-bottom: 0;
         grid-template-areas: "title" "img" "paragraph" ;
         }
 }
+@media screen and (max-width: 460px) {
+  .places-grid__card {
+    max-width: 460px;
+    grid-template-areas: "title" "img" "paragraph" ;
+    }
+}
+
 
     @media screen and (max-width: 320px) {
           .places-grid__card {
             max-width: 320px;
-            grid-template-columns: 1fr;
             grid-template-areas: "title" "img" "paragraph" ;
             }
     }

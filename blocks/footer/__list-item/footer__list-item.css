@@ -14,4 +14,7 @@ margin-right: 18px;
     margin-top: 32px;
 
     }
+    .footer__list-item:first-child{
+        margin-top: 0;
+    }
 } 
